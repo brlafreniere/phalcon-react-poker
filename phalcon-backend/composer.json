@@ -1,9 +1,18 @@
 {
     "require-dev": {
-        "phalcon/migrations": "^2.1"
+        "phalcon/migrations": "^2.1",
+        "phpunit/phpunit": "^9.0",
+        "codeception/codeception": "^4.1",
+        "phalcon/incubator-test": "^v1.0.0-alpha.1",
+        "codeception/module-webdriver": "^1.2"
     },
     "require": {
         "robmorgan/phinx": "^0.12.7",
         "cboden/ratchet": "^0.4.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
     }
 }
