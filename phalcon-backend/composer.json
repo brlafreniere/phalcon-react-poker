@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "phalcon/migrations": "^2.1"
+    },
+    "require": {
+        "robmorgan/phinx": "^0.12.7",
+        "cboden/ratchet": "^0.4.3"
+    }
+}
